@@ -1,0 +1,4 @@
+requests==2.31.0
+selenium==4.17.2
+python-dotenv==1.0.1
+pyvirtualdisplay==3.0

@@ -1,0 +1,8 @@
+- sudo apt update && sudo apt upgrade -y
+- sudo apt install -y chromium-driver chromium
+- download geckodriver from `https://github.com/mozilla/geckodriver/releases` (linux/aarch64 for raspberry pi)
+    - sudo tar -xzvf geckodriver-v0.33.0-linux-aarch64.tar.gz -C /usr/local/bin
+    - sudo chmod 755 /usr/local/bin/geckodriver
+- python -m venv venv
+- source venv/bin/activate
+- pip install -r requirements.txt
